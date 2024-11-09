@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: antiquewhite;
+}
+body,
+.times,
+.leftside,
+.rightside,.day,.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightside {
+  flex-direction: column;
+}
+.watch {
+  background-color: black;
+  color: aqua;
+  padding: 50px 40px;
+  border: 4px;
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 0 0 7px 5px rgba(0, 0, 0, 1.5);
+}
+#hours {
+  font-size: 6rem;
+  font-weight: 700;
+}
+#dots {
+  font-size: 3.5rem;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#minutes {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+#second {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+#ampm {
+  font-size: 1rem;
+  font-weight: bold;
+  color: yellow;
+}
+.rightbottom {
+  margin-left: 30px;
+  transform: translateY(-10px);
+}
+
+#dd,#ddmmyy{
+  font-size: 3rem;
+  font-weight: 300px;
+}
